@@ -1,0 +1,46 @@
+.Blog-page {
+    height:fit-content;
+    padding: 1em 6em;
+}
+.blog-content{
+    height: 65%;width: 100%;
+    margin-top: 20px;
+    position: relative;
+   
+}
+.blog-top{
+    display: flex;
+    align-items: center;
+    justify-self:center ;
+    flex-direction: column;
+}
+.blog-content h3{
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.blog-content span{
+    font-weight: 500;
+    font-size: 14px;
+    color: #97989F;
+    text-transform: capitalize;
+}
+.blog-top{
+    margin-bottom: 20px;
+}
+.blog-content #br{
+    border-left: 1px solid #97989F ;
+    padding-left: 5px;
+}
+.blog-center img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px;
+}
+.card-area{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}

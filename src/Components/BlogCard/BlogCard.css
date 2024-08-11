@@ -1,0 +1,78 @@
+.blog-card{
+    height: fit-content;
+    width: 100%;
+    margin-top: 20px;
+}
+.blog-card-content{
+margin-top: 20px;
+}
+.card{
+height: fit-content;
+width: fit-content;
+border-radius: 7px;
+background: #181A2A;
+border: 1px solid #696a758a;
+padding: 10px;
+margin-top: 20px;
+}
+.card span{
+font-size: 14px; padding: 3px;
+color: #4B6BFB;
+background-color: #4B6BFB0D;
+border-radius: 4px;
+
+}
+.c-img{
+width: 100%;
+background-color:#181A2A;
+background: 7px;
+
+}
+.card img{
+width: 100%;
+object-fit: contain;
+object-position: center;
+}
+.card h2{
+font-weight: 500;
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 20px;
+}
+.card-down{
+margin-top: 20px;
+}
+.card-down a {
+color: aliceblue;
+font-size: 14px;
+}
+.card  .over-end{
+display: flex;
+align-items: center;
+justify-content: start;
+gap: 15px;
+margin-top: 15px;
+}
+.card  .over-end img{
+width: 40px;
+height: 40px;
+}
+.card  .over-end p{
+font-size: 14px;
+}
+
+@media(max-width: 800px){
+.card h2{
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+}
+@media(max-width: 950px){
+.card h2{
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}

@@ -1,0 +1,126 @@
+.author-detail{
+    height: 100vh;
+    width: 100vw;
+    padding: 2em 6em;
+
+}
+
+.author-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    position: relative;
+}
+.img-div{
+    
+    width: 150px;
+    
+  
+}
+.img-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.author-card-top{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 50px;
+    border-radius: 14px;
+    height: fit-content;
+    width: 60%;
+    background-color: #242535;
+    padding: 15px;
+}
+.data>a>h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+#blue{
+    width: fit-content;
+    font-size: 12px;padding: 3px;
+    color: #fff;
+    background-color: #4B6BFB;
+    border-radius: 2px;
+}
+
+
+/* Container holding the entire slider */
+.slick-slider {
+    margin: 0 auto;
+    padding: 40px 0;
+    max-width: 1200px; 
+    
+    /* Adjust based on your layout */
+}
+
+/* The track that holds all the slides */
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+/* The individual slides */
+.slick-slide {
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* The list that holds the track */
+.slick-list {
+    overflow: hidden;
+    margin: 0 -10px; /* Adjust to match the slide padding */
+}
+
+/* Add a shadow and scale effect to the slides on hover */
+.slick-slide:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Arrows styling */
+.slick-prev, .slick-next {
+    font-size: 0; /* Hides the default text */
+    width: 30px;
+    height: 30px;
+    background-color: black; /* Customize arrow color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 20px; /* Adjust icon size */
+    color: white; /* Arrow icon color */
+}
+
+.slick-prev {
+    left: -50px; /* Adjust positioning */
+}
+
+.slick-next {
+    right: -50px; /* Adjust positioning */
+}
+
+/* Dots styling */
+.slick-dots {
+    bottom: -30px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #007bff; /* Customize dot color */
+}
+
+.slick-dots li.slick-active button:before {
+    color: #000; /* Active dot color */
+}

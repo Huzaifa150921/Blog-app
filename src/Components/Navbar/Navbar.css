@@ -1,0 +1,110 @@
+.navbar{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 6em;
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    width: 40px;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.nav-left a{
+    color: #FFFFFF;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.search{
+    width: 170px;
+    height: 40px;
+    background-color:#242535;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    padding: 5px;
+    transition: all linear 0.5s;
+}
+.search input{
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    transition: all linear 0.3s;
+}
+.active{
+    width: 300px;
+    position: absolute;
+    transform: translateX(-70px);
+    transition: all linear 0.3s;
+ 
+    z-index: 1;
+}
+
+.navbar .active {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+  }
+.search input::placeholder{
+    padding: 10px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    width: 20%;
+    background-color: transparent;
+    color: #fff;
+}
+.nav-right img{
+    position: absolute; /* Positioning the image */
+    right: 20px; /* Adjust as needed */
+    transition: opacity 0.3s linear;
+    
+  }
+  
+  .nav-right img.hidden {
+    display: none;
+  }
+@media (max-width: 800px) {
+    .nav-left ul{
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+    .logo{
+        width: 40px;
+    }
+    .navbar{
+    padding: 1em 2em;
+    }
+}
+.navbar #button{
+    padding: 5px;
+    outline: 0;
+    border: 0;
+    border: 1px solid #ffffff91;
+    color: #fff;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 4px;
+    transition: all linear .3s;
+
+}
+.navbar #button:hover{
+    background: #4B6BFB;
+}

@@ -1,0 +1,35 @@
+.blog-category-page{
+    padding: 1em 6em;
+    height: fit-content;
+}
+.cate-heads h3{
+    font-weight: 500;
+}
+.blog-category-page-content{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    
+}
+.cate-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.blog-category-page-content img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 7px;
+       
+    }
+    .blog-category-page-content  .img{
+        width: 100%;
+        height: 50vh;
+        background-color: #97989F;
+        border-radius: 7px;
+        margin-top: 30px;
+    }
+    

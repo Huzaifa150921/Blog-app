@@ -1,0 +1,146 @@
+.footer-container{
+    margin-top: 100px;
+    width: 100%;
+    height: fit-content;
+    background: #141624;
+}
+.footer-content{
+    margin-top: 20px;
+    color: #97989F;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:60px;
+}
+.foot-left{
+    width: 30%;
+    text-align: left;
+    line-height: 25px;
+   
+}
+.foot-left h3{
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.left-p{
+    margin-top: 20px;
+}
+.foot-left span{
+    color: #ffffff;
+    font-weight: 500;
+}
+.foot-center{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    line-height: 25px;
+
+}
+.center-lists h3{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.center-lists ul li{
+    margin-bottom: 10px;
+}
+.foot-card{
+    width: 390px;
+    height: 200px;
+    background: #2425359F;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.foot-card h3{
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.foot-card p{
+    font-size: 14px;
+}
+.card-inp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        background: #242535;
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #97989F;
+}
+.card-inp input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #ffffff;
+
+}
+.card-inp input::placeholder{
+    padding: 10px;
+}
+.subs{
+    border: 0;
+    outline: 0;
+    width: 250px;
+    height: 40px;
+    background: #4B6BFB;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.foot-end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.foot-end-con{
+    width: 100%;
+    margin-top: 30px;
+    border-top: 0.5px solid #696a75a1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.e-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+.e-p p{
+    color: #97989F;
+}
+@media (max-width: 800px) {
+    .footer-content{
+        flex-direction: column;
+      
+    }
+    .foot-center{
+        width: 100%;
+    }
+    .foot-left{
+        width: 100%;
+    }
+    .foot-end{
+        
+        flex-direction: column;
+        gap: 10px;
+    }
+   
+    .e-p p{
+        font-size: 10px;
+    }
+}
